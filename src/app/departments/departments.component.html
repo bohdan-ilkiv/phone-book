@@ -1,0 +1,15 @@
+<div *ngFor="let department of departments">
+   <h2>{{ department.name }}</h2>
+   <table>
+       <tr>
+           <th>ПОСАДА</th>
+           <th>Прізвище</th>
+           <th>Телефон</th>
+       </tr>
+       <tr *ngFor="let employee of department.employees">
+           <td>{{ employee.jobPosition }}</td>
+           <td>{{ employee.fullName }}</td>
+           <td>{{ employee.phoneNumber }}</td>
+       </tr>
+   </table>
+</div>

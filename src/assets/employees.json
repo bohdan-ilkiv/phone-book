@@ -1,0 +1,23 @@
+[
+   {
+     "fullName": "John Doe",
+     "jobPosition": "Manager",
+     "phoneNumber": "123-456-7890"
+   },
+   {
+     "fullName": "Jane Smith",
+     "jobPosition": "Assistant Manager",
+     "phoneNumber": "456-789-0123"
+   },
+   {
+     "fullName": "Michael Johnson",
+     "jobPosition": "Sales Representative",
+     "phoneNumber": "789-012-3456"
+   },
+   {
+     "fullName": "Emily Brown",
+     "jobPosition": "Sales Associate",
+     "phoneNumber": "012-345-6789"
+   }
+ ]
+ 

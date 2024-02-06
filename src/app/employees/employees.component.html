@@ -1,0 +1,17 @@
+<!-- employees.component.html -->
+
+<input type="text" [(ngModel)]="searchTerm" (input)="filterEmployees()" placeholder="Search employees...">
+<table>
+    <!-- Table header -->
+    <tr>
+        <th>ПОСАДА</th>
+        <th>Прізвище</th>
+        <th>Телефон</th>
+    </tr>
+    <!-- Table rows with filtered employees -->
+    <tr *ngFor="let employee of filteredEmployees">
+        <td>{{ employee.fullName }}</td>
+        <td>{{ employee.jobPosition }}</td>
+        <td>{{ employee.phoneNumber }}</td>
+    </tr>
+</table>
